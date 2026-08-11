@@ -2,38 +2,40 @@
 
 > Categoria: Web Exploitation
 
-## Introdução
+### Introdução
 
-Desafio simples de exploração web focado na manipulação de cookies armazenados pelo navegador.
+Este desafio aborda conceitos básicos de exploração web por meio da manipulação de cookies armazenados pelo navegador. O objetivo é analisar o comportamento da aplicação e identificar como ela controla os privilégios de acesso dos usuários.
 
-## Análise Inicial
+### Análise Inicial
 
-Ao acessar o site, a página exibia a mensagem:
+Ao acessar o site, nos deparamos com a seguinte mensagem:
 
 > Cookie Monster 🍪
 >
 > NOM NOM... Você não é admin!
 
-As dicas fornecidas indicavam que a solução estava relacionada aos cookies da aplicação.
+A página não apresentava muitas informações além dessa mensagem, o que indicava que a verificação de privilégios poderia estar ocorrendo por meio de algum dado armazenado localmente.
 
-## Resolução
+### Interpretação
 
-Utilizando as ferramentas de desenvolvedor do navegador (F12), acessei a seção de armazenamento de cookies e identifiquei um cookie responsável por controlar o status de administrador.
+O nome do desafio e a mensagem exibida sugerem que os cookies desempenham um papel importante na aplicação. Como cookies são frequentemente utilizados para armazenar informações de sessão e preferências do usuário, uma hipótese plausível era que o status de administrador estivesse sendo controlado por um valor armazenado no navegador.
 
-O valor do cookie indicava que o usuário não possuía privilégios administrativos. Após alterar esse valor para representar um usuário administrador e atualizar a página, a aplicação passou a reconhecer a alteração.
+### Resolução
 
-A página então exibiu a seguinte mensagem:
+Para verificar essa hipótese, foi utilizada a ferramenta de desenvolvedor do navegador (F12). Na seção de armazenamento de cookies, foi identificado um cookie responsável pelo controle de privilégios do usuário.
+
+Ao analisar seu conteúdo, foi possível observar que o valor indicava que o usuário não possuía permissões administrativas. Após alterar esse valor para representar um usuário administrador e atualizar a página, a aplicação passou a reconhecer a modificação.
+
+Com isso, a mensagem exibida foi alterada para:
 
 > Cookie Monster 🍪
 >
 > NOM NOM NOM! DELÍCIA! Aqui está sua flag: FLAG{C00K1E_M0NST3R_MUNCH}
 
-## Flag
+### Flag
 
-```text
-FLAG{C00K1E_M0NST3R_MUNCH}
-```
+> FLAG{C00K1E_M0NST3R_MUNCH}
 
-## Conclusão
+### Conclusão
 
-Este desafio demonstra um conceito básico de segurança web: informações armazenadas no lado do cliente não devem ser consideradas confiáveis. Ao manipular um cookie responsável pelo controle de permissões, foi possível obter privilégios administrativos e acessar a flag. Além disso, o desafio reforça a importância de utilizar as ferramentas de desenvolvedor do navegador para analisar o funcionamento de aplicações web.
+Este desafio demonstra uma vulnerabilidade comum em aplicações web: confiar em informações armazenadas no lado do cliente para controlar permissões de acesso. A atividade reforça a importância de inspecionar cookies durante análises de segurança e evidencia por que validações críticas devem ser realizadas pelo servidor, e não apenas pelo navegador do usuário.
