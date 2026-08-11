@@ -24,4 +24,4 @@ O valor do cookie indicava que o usuário não possuía privilégios administrat
 
 ## Flag
 
-FLAG{...}
+> FLAG{C00K1E_M0NST3R_MUNCH}
