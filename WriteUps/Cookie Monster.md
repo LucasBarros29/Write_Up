@@ -18,7 +18,7 @@ A página não apresentava muitas informações além dessa mensagem, o que indi
 
 A tela inicial do desafio pode ser observada abaixo:
 
-![Página Inicial](https://raw.githubusercontent.com/LucasBarros29/Write_Up/main/Imagens/cookie01.png)
+![Página Inicial](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/cookie01.png)
 
 ## 💡 Interpretação
 
