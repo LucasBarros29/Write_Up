@@ -28,7 +28,7 @@ Para validar a hipótese, o código foi inserido em um interpretador Brainfuck o
 
 A execução do código e sua respectiva saída podem ser observadas na figura abaixo:
 
-![Execução do código Brainfuck](
+![Execução do código Brainfuck](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/Brain.png)
 
 Após a execução, o programa revelou a seguinte mensagem:
 
