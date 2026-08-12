@@ -38,7 +38,7 @@ Com isso, a mensagem exibida foi alterada para:
 
 O resultado da alteração pode ser observado na figura abaixo:
 
-![Flag Obtida](
+![Flag Obtida](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/cookie02.png)
 
 ## 🚩 Flag
 
