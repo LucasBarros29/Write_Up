@@ -36,6 +36,10 @@ Com isso, a mensagem exibida foi alterada para:
 >
 > NOM NOM NOM! DELÍCIA! Aqui está sua flag: FLAG{C00K1E_M0NST3R_MUNCH}
 
+O resultado da alteração pode ser observado na figura abaixo:
+
+![Flag Obtida](
+
 ## 🚩 Flag
 
 ```text
