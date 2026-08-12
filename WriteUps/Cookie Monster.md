@@ -16,6 +16,10 @@ Ao acessar o site, nos deparamos com a seguinte mensagem:
 
 A página não apresentava muitas informações além dessa mensagem, o que indicava que a verificação de privilégios poderia estar ocorrendo por meio de algum dado armazenado localmente.
 
+A tela inicial do desafio pode ser observada abaixo:
+
+
+
 ## 💡 Interpretação
 
 O nome do desafio e a mensagem exibida sugerem que os cookies desempenham um papel importante na aplicação. Como cookies são frequentemente utilizados para armazenar informações de sessão e preferências do usuário, uma hipótese plausível era que o status de administrador estivesse sendo controlado por um valor armazenado no navegador.
