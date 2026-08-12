@@ -26,6 +26,10 @@ Ao identificar que o código estava escrito nessa linguagem, a principal hipóte
 
 Para validar a hipótese, o código foi inserido em um interpretador Brainfuck online.
 
+A execução do código e sua respectiva saída podem ser observadas na figura abaixo:
+
+![Execução do código Brainfuck](
+
 Após a execução, o programa revelou a seguinte mensagem:
 
 ```text
