@@ -18,7 +18,7 @@ A página não apresentava muitas informações além dessa mensagem, o que indi
 
 A tela inicial do desafio pode ser observada abaixo:
 
-![Página Inicial](Imagens/cookie01.png)
+![Página Inicial](Imagens/cookie 01.png)
 
 
 
