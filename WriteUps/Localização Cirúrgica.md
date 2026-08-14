@@ -18,7 +18,7 @@ A descrição já fornecia uma pista importante: o formato da flag era composto 
 
 A imagem abaixo apresenta o enunciado do desafio:
 
-![Enunciado do desafio](Imagens/formato-flag.png)
+![Enunciado do desafio](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/formato-flag.png)
 
 *Figura 1 - Enunciado indicando o formato da flag baseado em três palavras.*
 
