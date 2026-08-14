@@ -52,7 +52,7 @@ Com o auxílio do What3Words, foram analisados os quadrantes próximos ao ponto 
 
 O resultado obtido pode ser observado na figura abaixo:
 
-![Localização no What3Words](Imagens/what3words.png)
+![Localização no What3Words](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/what3words.png)
 
 *Figura 3 - Localização exata identificada através do What3Words.*
 
