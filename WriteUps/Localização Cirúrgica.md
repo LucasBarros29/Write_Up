@@ -24,7 +24,7 @@ A imagem abaixo apresenta o enunciado do desafio:
 
 Além disso, foi fornecida uma imagem do local que deveria ser identificado.
 
-![Imagem fornecida pelo desafio](Imagens/tajmahal.png)
+![Imagem fornecida pelo desafio](https://github.com/LucasBarros29/Write_Up/blob/main/Imagens/tajmahal.jpg)
 
 *Figura 2 - Fotografia utilizada para a geolocalização.*
 
