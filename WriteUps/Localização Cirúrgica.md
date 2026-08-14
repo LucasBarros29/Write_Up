@@ -1,12 +1,12 @@
-# 🗺️ Localização Cirúrgica
+#  Localização Cirúrgica
 
-> 📂 Categoria: OSINT / Geolocalização
+>  Categoria: OSINT / Geolocalização
 
-## 🎯 Introdução
+##  Introdução
 
 Este desafio combina conceitos de OSINT (Open Source Intelligence) e geolocalização. O objetivo era identificar não apenas um monumento conhecido mundialmente, mas determinar a posição exata do fotógrafo utilizando uma combinação de três palavras no formato do serviço What3Words.
 
-## 🔍 Análise Inicial
+##  Análise Inicial
 
 O enunciado do desafio apresentava a seguinte descrição:
 
@@ -28,7 +28,7 @@ Além disso, foi fornecida uma imagem do local que deveria ser identificado.
 
 *Figura 2 - Fotografia utilizada para a geolocalização.*
 
-## 💡 Interpretação
+##  Interpretação
 
 Ao observar a imagem, foi possível reconhecer rapidamente o monumento como sendo o **Taj Mahal**, localizado em Agra, na Índia.
 
@@ -44,7 +44,7 @@ Esse padrão remete diretamente ao serviço **What3Words**, que divide o mundo e
 
 Dessa forma, a principal hipótese foi utilizar o What3Words para localizar precisamente o ponto de onde a fotografia foi tirada.
 
-## ⚙️ Resolução
+##  Resolução
 
 Inicialmente foi identificado o Taj Mahal na imagem fornecida. Em seguida, utilizando referências visuais da fotografia, como caminhos, jardins, espelhos d'água e alinhamento do monumento, foi possível aproximar a posição do fotógrafo.
 
@@ -62,13 +62,13 @@ A combinação encontrada foi:
 commuted.anyway.stutter
 ```
 
-## 🚩 Flag
+##  Flag
 
 ```text
 FLAG{commuted.anyway.stutter}
 ```
 
-## 📚 Conclusão
+##  Conclusão
 
 Este desafio demonstra como pequenas informações podem ser utilizadas para obter uma localização extremamente precisa. Embora identificar o Taj Mahal tenha sido relativamente simples, o verdadeiro desafio consistia em determinar a posição exata do fotógrafo.
 
